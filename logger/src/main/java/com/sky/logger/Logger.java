@@ -10,4 +10,7 @@ public class Logger {
     public static void e(String message) {
         Log.e(Logger.class.getSimpleName(), message);
     }
+    public static void w(String message) {
+        Log.w(Logger.class.getSimpleName(), message);
+    }
 }
